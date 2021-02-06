@@ -1,0 +1,29 @@
+{
+	"name": "eufony/security",
+	"description": "Eufony: Pre-built Translation Package",
+	"type": "library",
+	"license": "LGPL-3.0-or-later",
+	"minimum-stability": "stable",
+	"authors": [
+		{
+			"name": "Alpin Gencer",
+			"email": "alpin@gencer.us"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/eufony/eufony/issues"
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"sort-packages": true
+	},
+	"require": {
+		"eufony/eufony": "v3.x-dev",
+		"eufony/database": "v3.x-dev"
+	},
+	"autoload": {
+		"psr-4": {
+			"Eufony\\Translation\\": "src/"
+		}
+	}
+}
